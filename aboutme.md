@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome
+title: David Light
 subtitle: A bit about me
 ---
 
