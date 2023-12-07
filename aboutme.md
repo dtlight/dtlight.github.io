@@ -8,7 +8,7 @@ Welcome to my corner of the internet, allow me to introduce myself and share my 
 
 
 ### Who am I?
-A DevOps engineer (every company has its own definition), with experience that overlaps Site Reliability Engineering and Platform Engineering. At university I studied computer science and finished with a masters degree. My journey in DevOps began when I moved to France in 2020 to join a crash simulation software company called [Engineering Systems International](https://www.esi-group.com/) (ESI)) and a few years after I joined FinTech [Swan](https://www.swan.io/). During those years, I worked on performance and reliability enhancing projects that have shaped my perspective and fueled my passion for DevOps/SRE.
+A Londoner who lived in Paris and worked as a DevOps engineer for 3 years, (every company has its own definition), with experience that overlaps with Site Reliability Engineering and Platform Engineering. During this time, agile methodologies and tools such as Terraform, AWS, Kubernetes, Docker, Gitlab ci and Argo CD were used. At university I studied computer science and finished with a masters degree. My journey in DevOps began when I moved to France in 2020 to join a crash simulation software company called [Engineering Systems International](https://www.esi-group.com/) (ESI) and a few years after I joined FinTech [Swan](https://www.swan.io/). During those years, I worked on performance and reliability enhancing projects that have shaped my perspective and fueled my passion for DevOps/SRE.
 
 Some of the projects include:
 - Automating the collection of source code (to be sent to an independent third party for intellectual property protection)
@@ -32,4 +32,4 @@ My newly wedded wife and I have a dog (well it's more hers than mine 😄), a ch
 
 ![Leika](https://burnerdave.github.io/assets/img/leika.jpg){: .mx-auto.d-block :}
 
-Feel free to explore my blog (once it's up) and don't hesitate to reach out. I would love to hear from you and learn about your experiences, thoughts, and ideas.
+Feel free to explore my blog (once it's up) and don't hesitate to reach out by [email](mailto:david-light@outlook.com). I would love to hear from you and learn about your experiences, thoughts, and ideas.
