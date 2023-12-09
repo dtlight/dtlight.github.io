@@ -1,3 +1,3 @@
 # davidlight.io
 
-Created using [beautiful jekyll](https://beautifuljekyll.com/).
+The source code for my personal site, created using [beautiful jekyll](https://beautifuljekyll.com/).
