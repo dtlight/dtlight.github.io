@@ -15,7 +15,7 @@ author: David Light
 To follow this tutorial you will need the [AWS](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) CLIs installed. Personally I recommend [tfenv](https://github.com/tfutils/tfenv) to install and seamlessly switch between terraform versions. Lastly you will need [AWS credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html).<br/><br/>The terraform code can be accessed on [GitHub](https://github.com/dtlight/example-vpc){:target="_blank"}.
 
 ###  Why Terraform?
-I've chosen Terraform (TF) an infrastructure as code (IaaC) tool, it has a large number of providers and is cloud-agnostic. Whichever IaaC tool you use, it's helpful to use one, here's why:
+I've chosen Terraform (TF) an infrastructure as code tool (IaC), it has a large number of providers and is cloud-agnostic. Whichever IaC tool you use, it's helpful to use one, here's why:
 
 
 **Automation:** Enables efficient and consistent provisioning of infrastructure.
@@ -116,22 +116,22 @@ These are similar to variables (vars), both are used to enhance the flexibility 
 
 Purpose: 
 
-* Variables (vars): Used for taking input values from users or setting default values. They provide a way to parameterize your configurations and make them more dynamic.
+* Variables: Used for taking input values from users or setting default values. They provide a way to parameterize your configurations and make them more dynamic.
 * Locals: Used for creating reusable expressions or intermediate values within a module or resource block. They are helpful for simplifying complex expressions and improving readability.
 
 Scope:
 
-* Variables (vars): Have a wider scope and can be defined at different levels (e.g., root module, child module, or even at the command line when executing Terraform).
+* Variables: Have a wider scope and can be defined at different levels (e.g., root module, child module, or even at the command line when executing Terraform).
 * Locals: Have a narrower scope and are limited to the module or resource block where they are defined. They are not accessible outside of this scope.
 
 Input vs. Intermediate Values:
 
-* Variables (vars): Are typically used for input values that can be set by users or by default values within the configuration.
+* Variables: Are typically used for input values that can be set by users or by default values within the configuration.
 * Locals: Are used for intermediate values or expressions calculated based on variables or other resources within the same module.
 
 Mutability:
 
-* Variables (vars): Can be changed or overridden at different levels, providing a way to customize behavior at runtime.
+* Variables: Can be changed or overridden at different levels, providing a way to customize behavior at runtime.
 * Locals: Are immutable within a module; once defined, their values cannot be changed.
 
 ### Availability Zones

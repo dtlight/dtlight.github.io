@@ -30,4 +30,4 @@ My newly wedded wife and I have a dog (well it's more hers than mine 😄), a ch
 
 ![Leika](https://dtlight.github.io/assets/img/leika.jpg){: .mx-auto.d-block :}
 
-Feel free to explore my blog (once it's up) and don't hesitate to reach out by [email](mailto:david-light@outlook.com). I would love to hear from you and learn about your experiences, thoughts, and ideas.
+Feel free to explore [my blogs](https://davidlight.io/) and don't hesitate to reach out by [email](mailto:david-light@outlook.com). I would love to hear from you and learn about your experiences, thoughts, and ideas.
