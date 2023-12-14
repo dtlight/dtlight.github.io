@@ -7,6 +7,7 @@ thumbnail-img: /assets/img/FRA.png
 share-img: /assets/img/FRA.png
 tags: [french, learning, spaced-repetition]
 author: David Light
+social-share: true
 ---
 
 Most of my posts will be technical ones but the objective of this post is to highlight the art of learning to learn. 
