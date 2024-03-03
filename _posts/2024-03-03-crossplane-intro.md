@@ -129,7 +129,6 @@ secret/gcp-account-creds created
 
 #### Grant the service account the permissions to do its work:
 
-
 ```
 $ gcloud projects add-iam-policy-binding $GCP_PROJECT --member "serviceAccount:$GCP_SVC_ACCT" --role="roles/iam.serviceAccountUser"
 $ gcloud projects add-iam-policy-binding $GCP_PROJECT --member "serviceAccount:$GCP_SVC_ACCT" --role="roles/container.admin"
@@ -185,7 +184,7 @@ to which we should see something along the lines of:
     Source:       Secret
 ```
 
-## Setting Up A Network
+## Setting Up A Network and Cluster
 Before we build a cluster, we first need to define the network the cluster will use. We need a network and a subnet. 
 
 ```
