@@ -2,7 +2,7 @@
 layout: post
 title: Using Crossplane to provision a GKE cluster
 subtitle: A basic example
-cover-img: /assets/img/abstract-geometrical-shapes.jpg
+cover-img: /assets/img/gke-backgrounds.jpg
 thumbnail-img: /assets/img/cloud-icons.jpg
 gh-repo: dtlight/crossplane-gke-demo
 gh-badge: [star, fork, follow]
