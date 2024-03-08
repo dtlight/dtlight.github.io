@@ -11,7 +11,11 @@ comments: false
 author: David Light
 ---
 
-I've previously written about provisioning infrastructure using terraform so I will first do a brief comparison to crossplane. A major difference between the two tools is the pull vs push approach. Crossplane leverages the kubernetes api using a control loop mechanism that allows it to monitor the state of infrastructure and bring it into sync if configuration drift is found. It proactively probes the state of infrastructure every hour by default (this value can be changed). Terraform on the other hand updates its understanding of the state of the infrastructure when told to do so in response to an event (such as a terraform plan command). If after infrastructure changes are applied, configuration drift occurs, this will not be captured until the next 'push event'.
+I've previously written about provisioning infrastructure using terraform so I will first do a brief comparison to crossplane. A major difference between the two tools is the pull vs push approach. Crossplane leverages the kubernetes api using a control loop mechanism that allows it to monitor the state of infrastructure and bring it into sync if configuration drift is found. It proactively probes the state of infrastructure every hour by default (this value can be changed). 
+
+Terraform on the other hand updates its understanding of the state of the infrastructure when told to do so in response to an event (such as a terraform plan command). If after infrastructure changes are applied, configuration drift occurs, this will not be captured until the next 'push event'.
+
+YAML files can be found on [GitHub](https://github.com/dtlight/crossplane-demo).
 
 ## Getting Started
 
@@ -184,8 +188,8 @@ to which we should see something along the lines of:
     Source:       Secret
 ```
 
-## Setting Up A Network and Cluster
-Before we build a cluster, we first need to define the network the cluster will use. We need a network and a subnet. 
+## Setting Up A VPC Network and Cluster
+Before we build a cluster, we first need to define the [network](https://cloud.google.com/vpc/docs/vpc) the cluster will use. We need a network and a subnet. 
 
 ```
 apiVersion: compute.gcp.crossplane.io/v1beta1
